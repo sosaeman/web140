@@ -1,0 +1,177 @@
+header,footer
+{
+	font-family:Comic Sans MS, cursive, sans-serif;
+	text-align:center;
+		color:purple;
+	background-color:rgb(169,169,169);
+	box-shadow:4px 4px 4px white;
+}
+
+
+nav
+{
+	background-color:white;
+	box-shadow:4px 4px 4px white;
+	position:fixed;
+	top:0;
+	width:100%;
+}
+nav ul li
+{
+	display:inline-block;
+	border:solid 1px black;
+	
+	padding:.5em;
+	width:13%;
+	margin-bottom:20px;
+	margin-top:40px;
+	position:sticky;
+
+}
+nav ul li a
+{
+	text-decoration:none;
+	color:green;
+}
+nav ul li a:hover
+{
+	
+	color:purple;
+}
+
+body
+{
+	background: linear-gradient(to bottom, #ffffff 0%,  #009900 100%);
+	
+}
+.banner
+{
+	margin-top:-10px;	
+
+}
+.font
+{
+	
+	font-family:Black Ops;
+	float:left; 
+	position:absolute;
+	z-index:1;
+	
+}
+.font-effect-grass
+{
+	font-size:70px; 
+}
+.intro
+{
+	text-align:center;
+}
+
+
+aside
+{
+	color:black;
+	width:20%;
+	float:left;
+	padding: 10px;
+	width: 20%;
+	border: 3px solid green;
+	min-height: 150px;
+	font-size: 90%;
+	margin-right:10px;
+}
+blockquote
+{
+	font-family:Black Ops;
+	font-size:20px;
+}
+.photo
+{
+	float:right;
+}
+section > img
+{
+	width:300px;
+	display:block;
+
+}
+.blank
+{
+	width:300px;
+	height:198px;
+	display:block;
+	float:right;
+}
+
+table
+{
+	border-color:white;
+	box-shadow:1px 1px 18px 5px black;
+	margin:0 auto;
+}
+thead
+{
+	font-family: 'Bubblegum Sans', cursive;
+	font-size:30px;
+}
+tbody
+{
+	font-weight:bold;
+	font-size:20px;
+}
+.tableheader
+{
+	font-family:permenant marker;
+	text-align:center;
+}
+
+img.validator
+{
+	width:5%;
+}
+.ad
+{
+	
+
+	margin:30px 200px ;
+	text-align:center;
+	font-family:;
+	font-size:;
+	background-color: #ff0000;
+	border:1px solid yellow;
+	box-shadow:1px 1px 18px 5px black;
+	padding:20px;
+}
+.ad h1
+{
+	font-family: 'Bubblegum Sans', cursive;
+}
+.ad ul li
+{
+font-family: permenant marker;
+font-size:30px;
+list-style-type: none;	
+padding:10px;
+}
+.sticky
+{
+  position: relative; 
+ 
+  
+
+}
+#citation
+{
+	margin:80px 80px;
+font-family:times newroman;
+font-size:	18px;
+
+}
+footer
+{
+	border-top: 2px solid white;
+	border-radius:5px;
+	box-shadow:1px 1px 1px  white;
+	
+ background: linear-gradient(to bottom, #00b300 0%, #ffffff 100%);	
+}
